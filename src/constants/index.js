@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Next Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Python Developer",
     icon: creator,
   },
 ];
@@ -176,7 +176,7 @@ const testimonials = [
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://media.licdn.com/dms/image/D5603AQEozvoUpNmSKA/profile-displayphoto-shrink_400_400/0/1678758767012?e=1687996800&v=beta&t=TXrRIsuR0Q94B-RNQITwHFopmdXV9u2E45KBJrf6Gj4",
   },
   {
     testimonial:

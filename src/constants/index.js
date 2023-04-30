@@ -1,8 +1,5 @@
 import {
   mobile,
-  fiverr,
-  fart,
-  shellcode,
   backend,
   creator,
   web,
@@ -18,8 +15,14 @@ import {
   git,
   figma,
   docker,
-  aws,
-  python,
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -109,20 +112,12 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "AWS",
-    icon: aws,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
 ];
 
 const experiences = [
   {
     title: "Freelancer",
-    company_name: "Fiverr",
+    company_name: "Starbucks",
     icon: fiverr,
     iconBg: "#383E56",
     date: "August 2022 - December 2022",
@@ -133,7 +128,7 @@ const experiences = [
   },
   {
     title: "Web Developer (Internship) ",
-    company_name: "Fart Magazine",
+    company_name: "Tesla",
     icon: fart,
     iconBg: "#E6DEDD",
     date: "Oct 2022 - Nov 2022",
@@ -146,7 +141,7 @@ const experiences = [
   },
   {
     title: "React.js Developer",
-    company_name: "Shellcode Solutions",
+    company_name: "Shopify",
     icon: shellcode,
     iconBg: "#383E56",
     date: "Jan 2023 - Feb 2023",

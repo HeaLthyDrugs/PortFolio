@@ -1,5 +1,8 @@
 import {
   mobile,
+  fiverr,
+  fart,
+  shellcode,
   backend,
   creator,
   web,
@@ -15,14 +18,8 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  aws,
+  python,
 } from "../assets";
 
 export const navLinks = [
@@ -112,57 +109,50 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "AWS",
+    icon: aws,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
 ];
 
 const experiences = [
   {
+    title: "Freelancer",
+    company_name: "Fiverr",
+    icon: fiverr,
+    iconBg: "#383E56",
+    date: "August 2022 - December 2022",
+    points: [
+        "Worked with 3 Clients in total from the platforms of Linkedin & PeoplePerHour",
+        "Got the Experience of many technologies from basic HTML/CSS/JS to the framework like React.js",
+    ],
+  },
+  {
+    title: "Web Developer (Internship) ",
+    company_name: "Fart Magazine",
+    icon: fart,
+    iconBg: "#E6DEDD",
+    date: "Oct 2022 - Nov 2022",
+    points: [
+      "Worked on UI Screens for Control Panel using React & Tailwind",
+      "Implemented Backend System using Firebase , Firestore & Firebase Authentication",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    company_name: "Shellcode Solutions",
+    icon: shellcode,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Jan 2023 - Feb 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Worked on UI components for Menu Buttons , Footer Items using React Tailwind ",
+      "Designed Navigation System for the Web which Includes Bottom Tab Navigation , Stack Navigation & Drawer navigation",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
@@ -172,42 +162,42 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I thought it was impossible to make a website as beautiful as our product, but Manish proved me wrong.",
+    name: "Abhishek Seth",
+    designation: "Graphic Designer / VFX Artist",
+    company: "EEE.co",
     image: "https://media.licdn.com/dms/image/D5603AQEozvoUpNmSKA/profile-displayphoto-shrink_400_400/0/1678758767012?e=1687996800&v=beta&t=TXrRIsuR0Q94B-RNQITwHFopmdXV9u2E45KBJrf6Gj4",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met a web developer who truly cares about their clients' success like Manish does.",
+    name: "Jeevan Poojari",
+    designation: "Data Analyst",
+    company: "EEE.co",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "After Manish optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Aditya Shelar",
+    designation: "",
+    company: "PuranPoli.co PVT LTD",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D T-Shirt Customizer",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A 3D T-Shirt Customizer is a T-Shirt On the web with 3D Features and with millions of color to apply on it and a Logo According to Your preference by Uploading it on the Web. ",
     tags: [
       {
-        name: "react",
+        name: "React.JS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Three.JS",
         color: "green-text-gradient",
       },
       {
@@ -215,50 +205,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: python,
+    source_code_link: "https://github.com/HeaLthyDrugs/threejs-reactjs-product",
   },
 ];
 

@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  Jeevan,
+  Aditya,
 } from "../assets";
 
 export const navLinks = [
@@ -168,7 +170,7 @@ const testimonials = [
     name: "Jeevan Poojari",
     designation: "UI/UX Video Editor",
     company: "EEE.co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: Jeevan,
   },
   {
     testimonial:
@@ -184,7 +186,7 @@ const testimonials = [
     name: "Lisa Wang",
     designation: "Head",
     company: "Puranpoli.co",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: Aditya,
   },
 ];
 

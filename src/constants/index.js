@@ -50,13 +50,17 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Next Developer",
+    title: "Python Developer",
     icon: backend,
   },
   {
-    title: "Python Developer",
+    title: "AWS Cloud Practitioner",
     icon: creator,
   },
+  {
+    title: "Gamer",
+    icon: creator,
+  }
 ];
 
 const technologies = [
@@ -117,39 +121,42 @@ const technologies = [
 const experiences = [
   {
     title: "Freelancer",
-    company_name: "Starbucks",
-    icon: fiverr,
+    company_name: "Fiverr",
+    icon: starbucks,
     iconBg: "#383E56",
     date: "August 2022 - December 2022",
     points: [
-        "Worked with 3 Clients in total from the platforms of Linkedin & PeoplePerHour",
-        "Got the Experience of many technologies from basic HTML/CSS/JS to the framework like React.js",
+      "Worked with 3 Clients from Various platforms like LinkedIN & Facebook",
+      "Done services from Basic Static Websites to a Full stack React websites",
+      "Also done some other services of Logo making and Video Editing",
+      "Also Worked in other Freelancing Platforms like PeoplePerHour , Upwork & Freelance.com"
     ],
   },
   {
-    title: "Web Developer (Internship) ",
-    company_name: "Tesla",
-    icon: fart,
-    iconBg: "#E6DEDD",
+    title: "Web Developer (Internship)",
+    company_name: "ShellCode Solutions",
+    icon: shopify,
+    iconBg: "#383E56",
     date: "Oct 2022 - Nov 2022",
     points: [
-      "Worked on UI Screens for Control Panel using React & Tailwind",
-      "Implemented Backend System using Firebase , Firestore & Firebase Authentication",
-      "Implemented responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using FrontEnd Skills and other related technologies.",
+      "Worked on Buttons for Drawer Menu , Footer Menu & Stack Menu",
+      "Also Worked on the responsive design of the website",
     ],
   },
   {
-    title: "React.js Developer",
-    company_name: "Shopify",
-    icon: shellcode,
-    iconBg: "#383E56",
+    title: "React Developer (Internship)",
+    company_name: "Meta",
+    icon: meta,
+    iconBg: "#E6DEDD",
     date: "Jan 2023 - Feb 2023",
     points: [
-      "Worked on UI components for Menu Buttons , Footer Items using React Tailwind ",
-      "Designed Navigation System for the Web which Includes Bottom Tab Navigation , Stack Navigation & Drawer navigation",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained web applications using React.js and other related technologies.",
+      "Worked on Search Bar of Navigation bar & Menu Section",
+      "Implemented Backend using Firebase , Firebase Authentication , FireStore & Firebase Cloud Servers",
+      "Collaborated with cross-functional teams including designers, product managers, and other developers.",
+      "Implemented responsive design and ensuring cross-browser compatibility.",
+      "Participated in code reviews and providing constructive feedback to other developers.",
     ],
   },
 ];
@@ -158,41 +165,41 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Manish proved me wrong.",
-    name: "Abhishek Seth",
-    designation: "Graphic Designer / VFX Artist",
+    name: "Jeevan Poojari",
+    designation: "UI/UX Video Editor",
     company: "EEE.co",
-    image: "https://media.licdn.com/dms/image/D5603AQEozvoUpNmSKA/profile-displayphoto-shrink_400_400/0/1678758767012?e=1687996800&v=beta&t=TXrRIsuR0Q94B-RNQITwHFopmdXV9u2E45KBJrf6Gj4",
+    image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Manish does.",
-    name: "Jeevan Poojari",
-    designation: "Data Analyst",
+    name: "Abhishek Seth",
+    designation: "Graphic Designer/VFX Artist",
     company: "EEE.co",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: "https://media.licdn.com/dms/image/D5603AQEozvoUpNmSKA/profile-displayphoto-shrink_100_100/0/1678758767012?e=1688601600&v=beta&t=fTlWoFZB6CEQM3xBr9Ub4Tuni26_PwtHZfKF-ny8fGY",
   },
   {
     testimonial:
       "After Manish optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Aditya Shelar",
-    designation: "",
-    company: "PuranPoli.co PVT LTD",
+    name: "Lisa Wang",
+    designation: "Head",
+    company: "Puranpoli.co",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "3D T-Shirt Customizer",
+    name: "Car Rent",
     description:
-      "A 3D T-Shirt Customizer is a T-Shirt On the web with 3D Features and with millions of color to apply on it and a Logo According to Your preference by Uploading it on the Web. ",
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "React.JS",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "Three.JS",
+        name: "Three.js",
         color: "green-text-gradient",
       },
       {
@@ -200,7 +207,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: python,
+    image: carrent,
     source_code_link: "https://github.com/HeaLthyDrugs/threejs-reactjs-product",
   },
 ];

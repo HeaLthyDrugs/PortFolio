@@ -183,7 +183,7 @@ const testimonials = [
   {
     testimonial:
       "After Manish optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+    name: "Aditya Shelar",
     designation: "Head",
     company: "Puranpoli.co",
     image: Aditya,

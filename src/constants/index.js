@@ -17,11 +17,8 @@ import {
   docker,
   meta,
   starbucks,
-  tesla,
   shopify,
   carrent,
-  jobit,
-  tripguide,
   threejs,
   Jeevan,
   Aditya,
@@ -192,9 +189,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D T-Shirt Customizer",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to Customize Logo, Color, and Background Color of a 3D T-Shirt according to your Preference.",
     tags: [
       {
         name: "React.js",

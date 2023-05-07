@@ -19,6 +19,7 @@ import {
   starbucks,
   shopify,
   carrent,
+  carrent2,
   threejs,
   Jeevan,
   Aditya,
@@ -208,6 +209,23 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/HeaLthyDrugs/threejs-reactjs-product",
+  },
+    {
+    name: "HOO Bank Modern WebApp",
+    description:
+      "HOO Bank is a Modern & Beautiful looking Website with Numbers of styled components in it with Elegant Look. ",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent2,
+    source_code_link: "https://github.com/HeaLthyDrugs/HDFC-Bank-App",
   },
 ];
 

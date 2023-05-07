@@ -29,6 +29,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import carrent from "./carrent2.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -59,6 +60,7 @@ export {
   starbucks,
   tesla,
   carrent,
+  carrent2,
   jobit,
   tripguide,
   Jeevan,

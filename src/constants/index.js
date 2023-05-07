@@ -213,7 +213,7 @@ const projects = [
   },
 
   {
-    name: "HOO Bank Modern WebApp",
+    name: "HOO Bank UI/UX App",
     description:
       "HOO Bank is a Modern & Beautiful looking Website with Numbers of styled components in it with Elegant Look. ",
     tags: [

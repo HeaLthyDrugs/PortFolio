@@ -60,8 +60,6 @@ export {
   tesla,
   carrent,
   carrent2,
-  jobit,
-  tripguide,
   Jeevan,
   Aditya,
 };

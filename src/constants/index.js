@@ -23,6 +23,7 @@ import {
   threejs,
   Jeevan,
   Aditya,
+  jobit,
 } from "../assets";
 
 export const navLinks = [

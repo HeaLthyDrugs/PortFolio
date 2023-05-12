@@ -147,7 +147,7 @@ const experiences = [
   },
   {
     title: "React Developer (Internship)",
-    company_name: "Meta",
+    company_name: "Fart Magazine",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Feb 2023",
@@ -183,8 +183,8 @@ const testimonials = [
     testimonial:
       "After Manish optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Aditya Shelar",
-    designation: "Head",
-    company: "Puranpoli.co",
+    designation: "CFO",
+    company: "Ragda.com",
     image: Aditya,
   },
 ];
